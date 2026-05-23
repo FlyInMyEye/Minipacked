@@ -2,7 +2,7 @@
 name = "minipacked"
 version = "0.1.0"
 edition = "2024"
-description = "Portable encrypted packer and unpacker for files and directories"
+description = "Simple tool to pack files and directories into portable (or even encrypted) containers written in rust"
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/FlyInMyEye/Minipacked"
