@@ -1,0 +1,15 @@
+pub(crate) const MAGIC: &[u8; 12] = b"MINIPACKED01";
+pub(crate) const VERSION: u8 = 1;
+pub(crate) const SALT_LEN: usize = 16;
+pub(crate) const STREAM_NONCE_LEN: usize = 19;
+pub(crate) const AUTH_TAG_LEN: usize = 16;
+pub(crate) const CHUNK_SIZE: usize = 64 * 1024;
+pub(crate) const ZSTD_LEVEL_FAST: i32 = 1;
+pub(crate) const ZSTD_LEVEL_DEFAULT: i32 = 3;
+pub(crate) const ZSTD_LEVEL_COMPACT: i32 = 9;
+pub(crate) const ARGON_M_COST: u32 = 65_536;
+pub(crate) const ARGON_T_COST: u32 = 3;
+pub(crate) const ARGON_P_COST: u32 = 1;
+pub(crate) const DEFAULT_PASSWORD: &str = "flyinmyeye";
+pub(crate) const PASSWORD_MODE_DEFAULT: u8 = 0;
+pub(crate) const PASSWORD_MODE_PROMPTED: u8 = 1;
